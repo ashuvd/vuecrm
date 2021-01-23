@@ -6,7 +6,6 @@ build:
   image: node:14
   stage: build
   script:
-    - cd frontend
     - npm install
     - npm run build
   artifacts:
