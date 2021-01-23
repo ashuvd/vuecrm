@@ -11,7 +11,7 @@ build:
   artifacts:
     expire_in: 1 week
     paths:
-      - backend/public
+      - dist
   tags:
     - vuecrm-docker
   only:
