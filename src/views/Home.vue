@@ -11,7 +11,7 @@
     <Loader v-if="loading" />
     <div v-else class="row">
       <HomeBill :rates="currency.conversion_rates" />
-      <HomeCurrency :rates="currency.conversion_rates" :date="currency.time_last_update_unix" />
+      <HomeCurrency :rates="currency.conversion_rates" :date="currency.time_last_update_unix*1000" />
     </div>
   </div>
 </template>
